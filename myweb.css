@@ -1,0 +1,292 @@
+
+body {
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    font-family:"work sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 h2 h3 {
+    font-family: "days one" , sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: #200e3d;
+    justify-content: center;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 16px;
+    padding: 0 15px;
+    color: white;
+    transition: 0.2s;
+    text-transform: uppercase;
+}
+
+nav ul li a :hover {
+    transition: 0.2s;
+    color: #52c5ff;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero {
+    padding-top: 130px;
+}
+
+.hero img {
+    border-style: none;
+    border-radius: 50%;
+    margin 0 auto;
+    max-width: 440px;
+    display: block;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 0px 100px;
+}
+
+.aboutme {
+    width: 90%;
+    max-width: 1100px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    padding: 40px 50px 70px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 0px rgb(0 0 0/40%),-10px -10px 0px rgb(225 114 114/ 80%);
+}
+
+.aboutme-section {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.aboutme-image {
+    height: 450px;
+    width: 400px;
+    background-image: url("lika\ 3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutme-text {
+    height: auto;
+    width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+#projects {
+    padding: 5px;
+    margin: 5px;
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    margin-left: 180px;
+    align-items: center;
+    justify-content:space-around;
+    box-shadow: 10px 10px 0px rgb(14, 56, 33) , -10px -10px 0px rgb(0 0 0/40%);
+}
+
+#projects h2 {
+    color: white;
+}
+
+.milano-project {
+    width: 500px;
+    height: 500px;
+    background: white;
+    position: relative;
+    border-radius: 10px;
+    background-image:url(https://www.soccerticketsonline.com/wp-content/uploads/sansiromilan.jpg);
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.myhobby-project {
+    width: 500px;
+    height: 500px;
+    background: white;
+    position: relative;
+    border-radius: 10px;
+    background-image:url(https://images.pexels.com/photos/448714/pexels-photo-448714.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hiking-project {
+    width: 500px;
+height: 500px;
+background: white;
+position: relative;
+border-radius: 10px;
+background-image:url(https://i.natgeofe.com/n/c9107b46-78b1-4394-988d-53927646c72b/1095_3x2.jpg);
+margin: 20px;
+background-size: cover;
+background-position: center;
+}
+
+.text {
+    position: absolute ;
+    height: 75px;
+    width: 92%;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: white;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+
+.text h3 {
+    margin-top: 3px;
+}
+
+
+
+
+.button {
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    width: 160px;
+    margin-bottom: 90px;
+    margin-left: 10px;
+
+}
+
+
+.contact {
+    width: 100%;
+    height: auto;
+    padding: 75px 0 50px 0;
+    text-align: center;
+    background-color: rgba(3,3,3,45%);
+}
+
+.contact p {
+    margin-bottom: 50px
+}
+
+.contact h2 , .contact p {
+    color:white;
+}
+
+.contact-form {
+    max-width: 800px;
+    display: flex;
+    text-align: left;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: white;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 9px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.message textarea {
+    border-radius: 5px;
+    border: 0px;
+}
+
+
+.contact-details {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.contact-details input {
+    width: 100px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.message button {
+    color: #1d3d5f;
+    border: 0;
+    border-radius: 5px;
+    background-color: lightblue;
+    width: 140px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left:auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.message button :hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.social-media {
+    font-size: 200%;
+    width: auto;
+    margin-left: auto;
+}
+
+.social-media a i{
+    color: white;
+    transition: 0.2s;
+}
+
+.social-media a i :hover {
+    color: lightblue;
+    transition: 0.2;
+}
+.copyright {
+    color: white;
+}
